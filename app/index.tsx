@@ -10,7 +10,7 @@ const MobileApp = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#000', /* black background */
+    backgroundColor: '#000', 
     minHeight: '100vh',
     padding: '1rem'
   };
@@ -22,13 +22,13 @@ const MobileApp = () => {
     borderRadius: '3rem',
     overflow: 'hidden',
     boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
-    border: '12px solid #1f2937', /* border-gray-800 - darker border */
+    border: '12px solid #1f2937', 
     position: 'relative',
     height: '745px',
     animation: 'pulse 2s infinite ease-in-out'
   };
   
-  // Notch style updated to match iPhone 14
+  
   const notchStyle = {
     position: 'absolute',
     top: 0,
@@ -61,7 +61,7 @@ const MobileApp = () => {
     marginRight: '0.25rem'
   };
   
-  // Button styles updated to match image
+  // Button styles  to match image
   const powerButtonStyle = {
     position: 'absolute',
     top: '5rem',
@@ -118,7 +118,7 @@ const MobileApp = () => {
     inset: 0,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    backgroundColor: '#6b21a8', /* bg-purple-900 */
+    backgroundColor: '#6b21a8', 
     backgroundImage: 'radial-gradient(circle, rgba(147, 51, 234, 0.8) 10%, rgba(0, 0, 0, 0.9) 70%)',
     opacity: 0.9
   };
@@ -146,7 +146,7 @@ const MobileApp = () => {
     width: '3.5rem',
     borderRadius: '0.5rem',
     overflow: 'hidden',
-    border: '2px solid #fbbf24' /* border-yellow-400 */
+    border: '2px solid #fbbf24' 
   };
   
   const buttonGroupStyle = {
@@ -168,9 +168,9 @@ const MobileApp = () => {
   };
   
   const editProfileStyle = {
-    color: '#9ca3af', /* text-gray-400 */
+    color: '#9ca3af', 
     fontSize: '0.75rem',
-    borderBottom: '1px solid #4b5563', /* border-gray-600 */
+    borderBottom: '1px solid #4b5563', 
     marginLeft: '8rem'
   };
   
@@ -182,7 +182,7 @@ const MobileApp = () => {
   };
   
   const bioStyle = {
-    color: '#d1d5db', /* text-gray-300 */
+    color: '#d1d5db', 
     marginTop: '0.5rem',
     fontSize: '0.875rem'
   };
@@ -190,7 +190,7 @@ const MobileApp = () => {
   const statsStyle = {
     marginTop: '0.75rem',
     fontSize: '0.875rem',
-    color: '#9ca3af' /* text-gray-400 */
+    color: '#9ca3af' 
   };
   
   const statItemStyle = {
@@ -217,21 +217,21 @@ const MobileApp = () => {
   const homeIndicatorStyle = {
     height: '0.25rem',
     width: '8rem',
-    backgroundColor: '#4b5563', /* bg-gray-600 */
+    backgroundColor: '#4b5563',
     borderRadius: '9999px'
   };
   
   const tabsContainerStyle = {
     display: 'flex',
-    borderBottom: '2px solid #1f2937' /* border-gray-800 - make border more visible */
+    borderBottom: '2px solid #1f2937' 
   };
   
   const tabStyle = (isActive) => ({
     flex: 1,
     padding: '0.75rem 1rem',
     textAlign: 'center',
-    color: isActive ? '#10b981' : '#9ca3af', /* text-green-400 : text-gray-400 */
-    borderBottom: isActive ? '2px solid #10b981' : 'none', /* border-green-400 */
+    color: isActive ? '#10b981' : '#9ca3af', 
+    borderBottom: isActive ? '2px solid #10b981' : 'none', 
     backgroundColor: isActive ? 'rgba(16, 185, 129, 0.1)' : 'transparent'
   });
   
@@ -258,10 +258,10 @@ const MobileApp = () => {
   
   const collectionCardStyle = {
     flex: 1,
-    backgroundColor: '#1f2937', /* bg-gray-800 */
+    backgroundColor: '#1f2937', 
     borderRadius: '0.375rem',
     overflow: 'hidden',
-    minHeight: 'unset', // Remove minimum height constraint
+    minHeight: 'unset', 
     height: '165px'
   };
   
@@ -276,7 +276,7 @@ const MobileApp = () => {
   const imageContainerStyle = {
     borderRadius: '0.25rem',
     overflow: 'hidden',
-    height: 'auto', // Ensure it adapts dynamically
+    height: 'auto', 
     minHeight: 'unset'
   };
   
@@ -295,11 +295,11 @@ const MobileApp = () => {
   const collectionFooterStyle = {
     padding: '1.0rem',
     
-    borderTop: '0.5px solid #374151', /* border-gray-700 */
+    borderTop: '0.5px solid #374151', 
   };
   
   const labelStyle = {
-    color: '#d1d5db', /* text-gray-300 */
+    color: '#d1d5db', 
     fontSize: '0.75rem',
     display: 'flex',
     alignItems: 'center',
@@ -318,7 +318,7 @@ const MobileApp = () => {
   };
   
   const tagDescriptionStyle = {
-    color: '#9ca3af', /* text-gray-400 */
+    color: '#9ca3af', 
     fontSize: '0.75rem',
     marginBottom: '0.75rem'
   };
@@ -330,7 +330,7 @@ const MobileApp = () => {
   };
   
   const tagOptionStyle = {
-    backgroundColor: 'rgba(31, 41, 55, 0.5)', /* bg-gray-800 bg-opacity-50 */
+    backgroundColor: 'rgba(31, 41, 55, 0.5)',
     borderRadius: '0.375rem',
     padding: '0.5rem'
   };
@@ -349,7 +349,7 @@ const MobileApp = () => {
   };
   
   const tagOptionDescStyle = {
-    color: '#9ca3af', /* text-gray-400 */
+    color: '#9ca3af', 
     fontSize: '0.7rem',
     marginTop: '0.125rem'
   };
@@ -359,7 +359,7 @@ const MobileApp = () => {
     display: 'flex',
     justifyContent: 'center',
     gap: '1rem',
-    color: '#6b7280', /* text-gray-500 */
+    color: '#6b7280', 
     paddingBottom: '0.5rem'
   };
   
