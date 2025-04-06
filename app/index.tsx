@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import { Share2, Settings, ChevronRight } from 'lucide-react';
 
